@@ -1,0 +1,77 @@
+.scrolled{
+    position:fixed;
+    top:0px;
+    z-index: 1000000;
+    margin-left:30px;
+    transform: translate(-30px);
+    background-color: white;
+    width:100%; 
+    
+    height: 14%;
+   
+}
+.navbarcontainer .navbar {
+    width:90%;
+    margin: auto;
+   
+}
+.navbarcontainer .navbar .container-fluid .collapse ul li a:hover{
+    color: #f35525;
+}
+.navbarcontainer .navbar .navbar-brand{
+line-height: 100px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-weight: 700;
+    letter-spacing: 2px;}
+.navbarcontainer .navbar .container-fluid .collapse  button{
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 40px;
+    text-transform: none;
+    border-radius: 20px;
+}
+.navbarcontainer .navbar .container-fluid .collapse  button:hover{
+    color: #f35525;
+
+}
+.navbarcontainer .navbar .container-fluid .collapse .scheduling {
+
+background-color: #f35525;
+display: inline-block;
+width: 40px;
+height: 40px;
+text-align: center;
+color:white;
+line-height: 40px;
+margin-right: 10px;
+border-radius: 50%;
+margin-right: -1px;
+position:relative;
+left: 2em;
+/* transform:translate(2em) */
+}
+.navbarcontainer .navbar .container-fluid .collapse ul li{
+display: block;
+    /* padding-left: 20px; */
+    padding-right: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #1e1e1e;
+
+    transition: all 0.4s ease 0s;
+    /* border: transparent; */
+    letter-spacing: .25px;}
+
+   .active{
+    color: #f35525!important;
+   }
+@media screen (max-width:1122px){
+    
+}

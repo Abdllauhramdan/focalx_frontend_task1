@@ -1,0 +1,39 @@
+footer .container {
+  margin-top: 150px;
+  background-color: hsl(0, 0%, 12%);
+  min-height: 100px;
+  color: hsl(0, 0%, 12%);
+  padding-top: 20px;
+}
+footer {
+  margin-top: 150px;
+  background-color: hsl(0, 0%, 12%);
+  min-height: 100px;
+  color: hsl(0, 0%, 12%);
+}
+
+footer .container p {
+  text-align: center;
+  background-color: hsl(0, 0%, 12%);
+
+  /* line-height: 100px; */
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  left: 12em;
+  position: relative;
+}
+
+footer .container a {
+  color: #fff;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 3;
+  text-decoration: none;
+}
+
+@media (max-width: 768px){
+    footer .container p{
+        left: 0;
+    }
+}

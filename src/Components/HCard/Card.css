@@ -1,0 +1,106 @@
+.countainerOfCard {
+
+    background-color: #fafafa !important;
+    border-radius: 10px;
+    box-shadow:none;
+    padding: 20px;
+    border: 1px solid white !important;
+}
+.countainerOfCard .partonecontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.countainerOfCard .partonecontent img{
+
+border-radius: 15px;
+vertical-align:middle;
+width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+.countainerOfCard .partonecontent span{
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.countainerOfCard .partonecontent h6{
+    font-size: 20px;
+    color: #f35525;
+    margin-top: 6px;
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.countainerOfCard .parttwocontent h4{
+    font-size: 19px;
+    margin: 25px 0px;
+    font: 19 poppins,sans-serif;
+    font-weight: 700;
+}
+
+
+.countainerOfCard .parttwocontent ul{
+border-bottom: 1px solid #eaeaea;
+margin-bottom: 30px;
+padding-bottom: 30px;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+.countainerOfCard .parttwocontent ul li{
+display: inline-block;
+    font-size: 15px;
+    color: #4a4a4a;
+    margin-right: 20px;
+}
+.countainerOfCard .parttwocontent ul li span{
+
+font-weight: 600;
+    color: #1e1e1e;
+}
+.parttwocontent   .schedule  .mylink:hover{
+    background-color: #f35525;
+
+}
+.parttwocontent   .schedule{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.parttwocontent   .schedule .mylink{
+    text-align: center;
+
+display: inline-block;
+background-color: #1e1e1e;
+color: #fff;
+font-size: 14px;
+font-weight: 500;
+height: 40px;
+text-decoration: none;
+line-height: 40px;
+padding: 0px 30px;
+border:none;
+border-radius: 25px;
+transition: all .3s;}
+
+
+
+
+
+
+
+
+
+
+

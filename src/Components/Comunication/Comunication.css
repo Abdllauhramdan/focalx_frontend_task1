@@ -1,0 +1,65 @@
+.container-com {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding-top: 10px;
+  }
+  
+  .container-com .row-com {
+    display: flex;
+    font: 14px poppins, sans-serif;
+  }
+  
+  .container-com .row-com .first-col {
+    color: #7a7a7a;
+    display: flex;
+    /* transform: translate(-40%); */
+    font-size: 14px;
+    margin-right: 25px;
+    padding-right: 25px;
+    padding: 0 20px;
+  }
+  .container-com .row-com .first-col p svg {
+    font-size: 20px;
+    color: #f35525;
+    line-height: 30px;
+    padding: 0 20px;
+  }
+  .container-com .row-com .first-col p {
+    padding: 0 10px;
+  }
+  
+  .container-com .row-com .first-col p:first-child {
+    border-right: 1px solid #eee;
+  }
+  
+  /* icons */
+  .container-com .row-com .second-col {
+    /* transform: translate(90%); */
+    margin: 0 auto;
+  }
+  .container-com .row-com .second-col .for-communication-icons .myul {
+    list-style: none;
+    transform: translate(10em);
+  }
+  .container-com .row-com .second-col .for-communication-icons .myul li {
+    display: inline-block;
+    width: 30px;
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s;
+    margin-right: 10px;
+  }
+  .container-com .row-com .second-col .for-communication-icons .myul :hover {
+    background-color: #f35525;
+  }
+  
+  
+  @media (max-width: 992px){
+  .container-com {
+      display: none;
+  }
+  }

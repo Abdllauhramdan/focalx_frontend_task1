@@ -1,0 +1,26 @@
+.property-features {
+  width: 85%;
+  background: #fff;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  padding: 15px;
+}
+.single-property-feature {
+  border-bottom: 1px solid #00000013;
+  padding: 30px 0px;
+}
+.single-property-feature:nth-child(1) {
+  padding-top: 10px !important;
+}
+.single-property-feature:nth-child(4) {
+  border-bottom: none;
+}
+.single-property-feature-text {
+  margin-left: 20px;
+}
+.single-property-feature-text > h2 {
+  font-size: 25px;
+}
+.single-property-feature-text > span {
+  opacity: 0.7;
+}

@@ -1,0 +1,95 @@
+.formPart-wrapper {
+  background-image: url(/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 100px 0px 250px 0px;
+  padding-bottom: 0px!important;
+  position: relative;
+  text-align: center;
+  margin-top: 120px;
+}
+.formPart-wrapper .formPart-content > p {
+  display: none;
+}
+.formPart-content > h2 {
+  color: #ee626b;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-left: 5px;
+  position: relative;
+}
+
+.formPart-content > h2::before{
+ position: absolute;
+ content: "";
+ width: 2px;
+ height: 16px;
+ background: #ee626b;
+ margin-left: -5px;
+ top: 2%;
+}
+
+.formPart-wrapper .formPart-content > h5 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 20px;
+  line-height: 56px;
+  color: white;
+}
+.formPart-wrapper .wrapper-contact {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .formPart-wrapper .wrapper-contact, .formPart-wrapper .details-wrapper {
+    display: block!important;
+  }
+  .formPart-wrapper .left-side-map,
+  .formPart-wrapper .right-side-contact {
+    width: 100% !important;
+  }
+  .details-child {
+    width: 100%!important;
+  }
+  .formPart-wrapper .right-side-contact {
+    margin-left: 0px!important;
+  }
+}
+
+.formPart-wrapper .left-side-map {
+  margin-top: 20px;
+  width: 60%;
+}
+.formPart-wrapper .right-side-contact {
+  width: 40%;
+  margin-left: 30px;
+}
+.formPart-wrapper .details-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.details-child {
+  width: 47%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 15%);
+  background: #fff;
+  margin-top: 30px;
+}
+.details-text > h4 {
+  margin-left: 20px;
+}
+.details-text > span {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+}
