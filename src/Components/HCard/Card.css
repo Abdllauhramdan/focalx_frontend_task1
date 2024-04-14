@@ -35,7 +35,7 @@ width: 100%;
 
 .countainerOfCard .partonecontent h6{
     font-size: 20px;
-    color: #f35525;
+    color:  #25f3f3;
     margin-top: 6px;
     display: inline-block;
     margin-top: 30px;
@@ -70,7 +70,7 @@ font-weight: 600;
     color: #1e1e1e;
 }
 .parttwocontent   .schedule  .mylink:hover{
-    background-color: #f35525;
+    background-color: #25f3f3;
 
 }
 .parttwocontent   .schedule{

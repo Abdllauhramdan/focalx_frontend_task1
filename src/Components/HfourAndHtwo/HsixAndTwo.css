@@ -5,7 +5,7 @@
 
 .HsixAndTWO h6 {
 
-    color: #ee626b;
+    color: #25f3f3;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -14,7 +14,7 @@
     position: relative;
     left:47%;
     max-width:max-content;
-    border-left: 2px solid #ee626b;
+    border-left: 2px solid #25f3f3;
 
 }
 

@@ -2,7 +2,7 @@ import Card from 'react-bootstrap/Card';
 import './Card.css';
 import { NavLink } from 'react-bootstrap';
 
-const HCard = ({photo,type,price,location,items}) => {
+const HCard = ({photo,type,offer,price,location,items}) => {
   return (
     <div>
     <div className=' '>
@@ -16,6 +16,9 @@ const HCard = ({photo,type,price,location,items}) => {
           <span>{type}</span>
           </div>
           <div className="left">
+          <h4>
+           {offer}
+          </h4>
           <h6>
            {price}
           </h6>

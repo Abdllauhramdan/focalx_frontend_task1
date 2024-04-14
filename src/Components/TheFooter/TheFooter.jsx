@@ -7,7 +7,7 @@ const TheFooter = () => {
           <p>
             Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. <br />
             <br />
-            Design:{" "}
+            Design:{" by focalx.com"}
             <a rel="nofollow" href="https://templatemo.com" target="_blank">
               TemplateMo
             </a>
